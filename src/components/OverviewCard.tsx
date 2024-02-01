@@ -1,6 +1,7 @@
 import React from "react";
 import img from "/public/overview.png";
 import Image from "next/image";
+import Link from "next/link";
 
 const OverviewCard = () => {
   return (
@@ -13,9 +14,11 @@ const OverviewCard = () => {
           offers a mock up of the resulting consumer experience .
         </p>
         <div className="text-right mt-4">
-          <button className="font-bold text-white lg:w-8/12 w-full mr-auto bg-gray-800 p-3 rounded-full">
-            Get started
-          </button>
+          <Link href="/docs/overview">
+            <button className="font-bold text-white lg:w-8/12 w-full mr-auto bg-gray-800 p-3 rounded-full">
+              Get started
+            </button>
+          </Link>
         </div>
         <Image
           src={img}
