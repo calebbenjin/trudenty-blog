@@ -36,7 +36,7 @@ const links: LinkItem[] = [
   {
     id: 4,
     title: "Products",
-    link: "/",
+    link: "/docs/products",
   },
 ];
 
