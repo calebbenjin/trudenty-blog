@@ -5,11 +5,13 @@ import Image from "next/image";
 
 const UserGuides = () => {
   return (
-    <div className="w-8/12 mx-auto mt-20">
+    <div className="lg:w-8/12 w-10/12 mx-auto mt-20">
       <h2 className="font-bold mb-2 mt-9">User Guides</h2>
-      <section className="grid grid-cols-2 gap-4">
-        <div className="border rounded-lg pt-10 pr-10 pl-10 relative w-full mx-auto ">
-          <h2 className="font-semibold mb-3 text-xl  ">Merchant Demo</h2>
+      <section className="grid lg:grid-cols-2 grid-cols-1 gap-4">
+        <div className="border rounded-lg lg:pt-10 pt-4 lg:pr-10 pr-4 lg:pl-10 pl-4 relative w-full mx-auto ">
+          <h2 className="font-semibold mb-3 lg:text-xl text-lg ">
+            Merchant Demo
+          </h2>
           <p className="text-gray-400 text-sm font-medium">
             Customize fraud risk algorithms, personalize payment experiences and
             leverage the dashboard for automated and supported refund
@@ -24,8 +26,10 @@ const UserGuides = () => {
             className="mx-auto mt-12"
           />
         </div>
-        <div className="border rounded-lg pt-10 pr-10 pl-10 relative w-full mx-auto ">
-          <h2 className="font-semibold mb-3 text-xl  ">Consumer Demo</h2>
+        <div className="border rounded-lg lg:pt-10 pt-4 lg:pr-10 pr-4 lg:pl-10 pl-4 relative w-full mx-auto ">
+          <h2 className="font-semibold mb-3 lg:text-xl text-lg ">
+            Consumer Demo
+          </h2>
           <p className="text-gray-400 text-sm font-medium">
             Experience personalized consumer payment experiences tailored to
             risk, as set up by the Merchant Demo.

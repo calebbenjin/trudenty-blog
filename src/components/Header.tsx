@@ -4,7 +4,7 @@ import logoImg from "/public/logo.png";
 
 const Header = () => {
   return (
-    <header className="px-20 py-6 bg-gray-50">
+    <header className="lg:px-20 px-10 border-b py-6 bg-gray-50">
       <div className="logo flex items-center gap-2">
         <Image
           src={logoImg}
