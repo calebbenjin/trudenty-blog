@@ -7,10 +7,10 @@ import Image from "next/image";
 
 const Usecase = () => {
   return (
-    <div className="w-8/12 mx-auto mt-20 mb-10">
-      <h2 className="font-bold mb-2 mt-9">Use cases</h2>
-      <section className="grid grid-cols-2 gap-4">
-        <div className="border rounded-lg p-10 relative w-full mx-auto ">
+    <div className="lg:w-8/12 w-10/12 mx-auto mt-20 mb-10">
+      <h2 className="font-bold mb-2 mt-9 text-lg">Use cases</h2>
+      <section className="grid lg:grid-cols-2 grid-cols-1 gap-4">
+        <div className="border rounded-lg lg:p-10 p-5 relative w-full mx-auto ">
           <Image
             src={iconImg}
             alt="logo-img"
@@ -28,7 +28,7 @@ const Usecase = () => {
             and real time fraud prevention measures.
           </p>
         </div>
-        <div className="border rounded-lg p-10 relative w-full mx-auto ">
+        <div className="border rounded-lg lg:p-10 p-5 relative w-full mx-auto ">
           <Image
             src={Icon}
             alt="logo-img"
@@ -44,7 +44,7 @@ const Usecase = () => {
             integrated into your existing payment setup. Not Trusted Experience
           </p>
         </div>
-        <div className="border rounded-lg p-10 relative w-full mx-auto ">
+        <div className="border rounded-lg lg:p-10 p-5 relative w-full mx-auto ">
           <Image
             src={Icon1}
             alt="logo-img"
@@ -62,7 +62,7 @@ const Usecase = () => {
             Index. Not Trusted Experience
           </p>
         </div>
-        <div className="border rounded-lg p-10 relative w-full mx-auto ">
+        <div className="border rounded-lg lg:p-10 p-5 relative w-full mx-auto ">
           <Image
             src={Icon2}
             alt="logo-img"

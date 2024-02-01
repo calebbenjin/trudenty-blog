@@ -7,11 +7,11 @@ import Image from "next/image";
 
 const Products = () => {
   return (
-    <section className="mt-10 mb-20 w-8/12 mx-auto">
-      <h2 className="font-bold mb-2 mt-9">Use cases</h2>
-      <section className="grid grid-cols-2 gap-4 ">
-        <div className="border rounded-lg p-10 relative mx-auto bg-gray-50">
-          <div className="content w-9/12">
+    <section className="mt-10 mb-20 lg:w-8/12 w-10/12 mx-auto">
+      <h2 className="font-bold mb-2 mt-9 text-lg">Use cases</h2>
+      <section className="grid lg:grid-cols-2 grid-cols-1 gap-4 ">
+        <div className="border rounded-lg lg:p-10 p-5 pb-20 relative mx-auto bg-gray-50">
+          <div className="content lg:w-9/12 w-11/12">
             <h2 className="font-semibold mb-3 text-xl  ">
               Shopper Trust Index
             </h2>
@@ -29,8 +29,8 @@ const Products = () => {
             />
           </div>
         </div>
-        <div className="border rounded-lg p-10 relative mx-auto bg-gray-50">
-          <div className="content w-9/12">
+        <div className="border rounded-lg lg:p-10 p-5 pb-20 relative mx-auto bg-gray-50">
+          <div className="content lg:w-9/12 w-11/12">
             <h2 className="font-semibold mb-3 text-xl  ">
               Payment Personalisation
             </h2>
@@ -48,8 +48,8 @@ const Products = () => {
             />
           </div>
         </div>
-        <div className="border rounded-lg p-10 relative mx-auto bg-gray-50">
-          <div className="content w-9/12">
+        <div className="border rounded-lg lg:p-10 p-5 pb-28 relative mx-auto bg-gray-50">
+          <div className="content lg:w-9/12 w-11/12">
             <h2 className="font-semibold mb-3 text-xl  ">
               Returns Orchestrator
             </h2>
@@ -69,8 +69,8 @@ const Products = () => {
             />
           </div>
         </div>
-        <div className="border rounded-lg p-10 relative mx-auto bg-gray-50">
-          <div className="content w-9/12">
+        <div className="border rounded-lg lg:p-10 p-5 pb-20 relative mx-auto bg-gray-50">
+          <div className="content lg:w-9/12 w-11/12">
             <h2 className="font-semibold mb-3 text-xl  ">
               Identity and Authentication
             </h2>
