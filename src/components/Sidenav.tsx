@@ -30,7 +30,7 @@ const links: LinkItem[] = [
   },
   {
     id: 3,
-    title: "Usecase",
+    title: "Use Cases",
     link: "/",
   },
   {
@@ -61,12 +61,14 @@ const Sidenav = () => {
                 pathname === data?.link
                   ? "bg-gray-200 px-3 py-2 rounded-lg"
                   : ""
-              }`}>
+              }`}
+            >
               {data?.subItems ? (
                 <div className="w-full font-medium">
                   <button
                     onClick={() => handleDropdownClick(data.id)}
-                    className="w-full flex items-center justify-between text-sm cursor-pointer hover:bg-gray-200 px-3 py-3 rounded-lg">
+                    className="w-full flex items-center justify-between text-sm cursor-pointer hover:bg-gray-200 px-3 py-3 rounded-lg"
+                  >
                     <span>{data.title}</span>
                     <span className="ml-2">
                       {activeDropdown === data.id ? (
@@ -80,7 +82,8 @@ const Sidenav = () => {
                   <ul
                     className={`${
                       activeDropdown === data?.id ? "block" : "hidden"
-                    } pl-5 space-y-4 pt-4 w-full`}>
+                    } pl-5 space-y-4 pt-4 w-full`}
+                  >
                     {data.subItems.map((subItem) => (
                       <li key={subItem?.id} className="w-full">
                         <Link
@@ -89,7 +92,8 @@ const Sidenav = () => {
                             pathname === subItem.link
                               ? "bg-gray-600 px-3 py-2 rounded-lg"
                               : ""
-                          }`}>
+                          }`}
+                        >
                           {subItem?.title}
                         </Link>
                       </li>
@@ -103,7 +107,8 @@ const Sidenav = () => {
                     pathname === data.link
                       ? "text-black bg-gray-200 px-3 py-2 rounded-lg"
                       : ""
-                  }`}>
+                  }`}
+                >
                   {data.title}
                 </Link>
               )}

@@ -8,7 +8,7 @@ const OverviewCard = () => {
     <div className="border rounded-lg lg:p-10 p-4 overflow-hidden pb-40 relative my-10 lg:w-8/12 w-10/12 mx-auto bg-gray-50">
       <div className="content lg:w-9/12 w-full">
         <h2 className="font-semibold mb-3 text-xl  ">Overview</h2>
-        <p className="text-gray-500 font-medium">
+        <p className="text-gray-400 font-medium">
           An introduction to the Trudenty-Worldline IEC experience, providing
           detailed demonstrations of the Trudenty solution for merchants, and
           offers a mock up of the resulting consumer experience .

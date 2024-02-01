@@ -8,7 +8,7 @@ import Image from "next/image";
 const Products = () => {
   return (
     <section className="mt-10 mb-20 lg:w-8/12 w-10/12 mx-auto">
-      <h2 className="font-bold mb-2 mt-9 text-lg">Use cases</h2>
+      <h2 className="font-bold mb-2 mt-9 text-lg">Products</h2>
       <section className="grid lg:grid-cols-2 grid-cols-1 gap-4 ">
         <div className="border rounded-lg lg:p-10 p-5 pb-20 relative mx-auto bg-gray-50">
           <div className="content lg:w-9/12 w-11/12">
@@ -55,9 +55,7 @@ const Products = () => {
             </h2>
             <p className="text-gray-500 text-sm font-medium">
               Automatically personalise routing for payments based on consumer
-              fraud risk profile, at checkout and refunds. Includes Shopper
-              Trust Index Configuration Shopper Trust Index Shopper Trust
-              Network Search Edit Settings
+              fraud risk profile, at checkout and refunds.
             </p>
             <Image
               src={img3}
@@ -76,9 +74,7 @@ const Products = () => {
             </h2>
             <p className="text-gray-500 text-sm font-medium">
               Secure consumer accounts from login to returns, with streamlined
-              passkeys linked directly to your web domain. Includes Shopper
-              Trust Index Configuration Shopper Trust Index Shopper Trust
-              Network Search Edit Settings
+              passkeys linked directly to your web domain.
             </p>
             <Image
               src={img4}
